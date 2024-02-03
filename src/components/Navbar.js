@@ -13,7 +13,7 @@ const Navbar = (props) => {
     const handleSearch = (e) => {
         e.preventDefault();
         props.onSearch(searchTerm);
-        navigate('/search');
+        navigate('/iMoviesReact/search');
     }
     
 
