@@ -45,7 +45,10 @@ const Navbar = (props) => {
                 </ul>
             </li>
             <li className="nav-item">
-                <Link className="nav-link" to="/iMoviesReact/about">About</Link>
+                <Link className="nav-link" to="/iMoviesReact/about">About            <span class="badge rounded-pill bg-light text-dark mx-1">Copyright © Mohsin Feroz · Made with <Link to="https://www.react.dev/" target="_blank" rel="noopener noreferrer">ReactJS</Link> + <Link to="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">Bootstrap</Link></span>
+</Link>
+            </li>
+            <li>
             </li>
             </ul>
             <form className="d-flex">
